@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="vn">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>EGA Cake</title>
+        <link
+            rel="icon"
+            href="/assets/images/favicon.png"
+            type="image/x-icon"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        />
+        <link rel="stylesheet" href="/assets/css/grid.css" />
+        <link rel="stylesheet" href="/assets/css/main.css" />
+        <link rel="stylesheet" href="./assets/css/banhhang.css"/>
+        <script src="/assets/js/main.js" defer></script>
+    </head>
+
+    <body>
+        <!-- header -->
+        <div class="top-site-banner">
+            <a href="">
+                <img
+                    class="img-fluid c-none"
+                    src="assets/images/top_banner.jpg"
+                    alt=""
+                />
+                <img
+                    class="img-fluid l-none m-none"
+                    src="assets/images/top_banner_mb.jpg"
+                    alt=""
+                />
+            </a>
+            <button class="close"></button>
+        </div>
+        <header class="header ptb-6">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-3">
+                        <div class="header__logo logo">
+                            <a href="index.html">
+                                <img src="assets/images/logo.jpg" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-5">
+                        <div class="search">
+                            <form
+                                action="timkiem.html"
+                                method="get"
+                                class="search-form single-field-form"
+                            >
+                                <input
+                                    type="text"
+                                    name="q"
+                                    id=""
+                                    class="search-input"
+                                    placeholder="Bạn cần tìm gì..."
+                                />
+                                <button class="search-btn">
+                                    <i
+                                        class="fa-solid fa-magnifying-glass search-icon icon"
+                                    ></i>
+                                </button>
+                            </form>
+                            <ul class="search-list">
+                                <li class="mr-12"><a href="#">Bánh kem</a></li>
+                                <li class="mr-12"><a href="#">Cupcake</a></li>
+                                <li class="mr-12"><a href="#">Donut</a></li>
+                                <li class="mr-12"><a href="#">Socola</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col l-4">
+                        <ul class="header__menu list-unstyled">
+                            <li class="header__menu-item">
+                                <a href="#">
+                                    <i>
+                                        <img
+                                            class="header__menu-icon"
+                                            src="assets/images/order-icon.png"
+                                            alt=""
+                                            style=""
+                                        />
+                                    </i>
+                                    <span>Đơn hàng</span>
+                                </a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="#">
+                                    <i>
+                                        <img
+                                            class="header__menu-icon"
+                                            src="assets/images/address-icon.png"
+                                            alt=""
+                                        />
+                                    </i>
+                                    <span>Cửa hàng</span>
+                                </a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="#">
+                                    <i>
+                                        <img
+                                            class="header__menu-icon"
+                                            src="assets/images/account-icon.png"
+                                            alt=""
+                                        />
+                                    </i>
+                                    <span>Tài khoản</span>
+                                </a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="#">
+                                    <i>
+                                        <img
+                                            class="header__menu-icon"
+                                            src="assets/images/cart-icon.png"
+                                            alt=""
+                                        />
+                                    </i>
+                                    <span>Giỏ hàng</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav class="nav">
+            <div class="grid wide">
+                <div class="row">
+                    <input type="radio" name="navRadio" id="navRadio2" />
+                    <ul class="nav__list col l-11 list-unstyled">
+                        <li class="nav__list-item mr-25">
+                            <a href="#">Trang chủ</a>
+                        </li>
+                        <li class="nav__list-item mr-25">
+                            <a href="#">Giới thiệu</a>
+                        </li>
+                        <li class="nav__list-item mr-25">
+                            <a href="#">Quà tặng 08/03</a>
+                        </li>
+                        <li class="nav__list-item mr-25">
+                            <a href="#">Chương trình khuyến mãi</a>
+                        </li>
+                        <li class="nav__list-item mr-25">
+                            <a href="#">Bánh ngon mỗi ngày</a>
+                        </li>
+                        <li class="nav__list-item mr-25">
+                            <a href="#">Công thức làm bánh</a>
+                        </li>
+                        <li class="nav__list-item mr-25">
+                            <a href="#">Chuyên mục làm bánh</a>
+                        </li>
+                        <li class="nav__list-item mr-25">
+                            <a href="#">Liên hệ</a>
+                        </li>
+                        <li class="nav__list-item mr-25">
+                            <a href="#">Góp ý / Khiếu nại</a>
+                        </li>
+                        <li class="nav__list-item mr-25">
+                            <a href="#">Tìm kiếm</a>
+                        </li>
+                    </ul>
+                    <div class="nav__btn col l-1">
+                        <label for="">
+                            <input
+                                type="radio"
+                                name="navRadio"
+                                id="navRadio1 checked"
+                            />
+                            <i
+                                class="fa-solid fa-angle-left nav__btn-icon disabled"
+                            ></i>
+                        </label>
+                        <label for="navRadio2">
+                            <i
+                                class="fa-solid fa-angle-right nav__btn-icon"
+                            ></i>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- main -->
+        <main class="main">
+            <div class="container">
+                <div class="text-content">
+                    <h1>Trang chủ</h1>
+                </div>
+                <div class="sell">
+                    <h1 class="mrb-16">Chính sách đổi trả</h1>
+                    <ul class="booksell">
+                        <li id="sold">
+                            <p class="mrb-5">Nếu Quý khách nhận được sản phẩm không như EGA-Cake đã cam kết hoặc đơn giản Quý khách chỉ thay đổi ý định của mình, EGA-Cake sẽ hỗ trợ đổi qua sản phẩm khác cho Quý khách mà không cần lý do hay tốn phí.</p>
+                            <p class="mrb-16">Tùy vào từng sản phẩm cụ thể, EGA-Cake sẽ chấp nhận đổi sau khi mua hàng với các điều kiện như sau:</p>
+                            <ul class="waysold mrb-16">
+                                <li>Trong vòng 7 ngày kể từ ngày mua hàng.</li>
+                                <li>Tất cả sản phẩm không bị rách bao bì.</li>
+                                <li>Còn hóa đơn mua hàng.</li>
+                                <li>Đầy đủ phụ kiện và tặng phẩm đi kèm còn mới.</li>
+                                <li>Sản phẩm không hư hỏng, móp méo, nứt vỡ.</li>
+                                <li>Vỏ hộp còn nguyên vẹn, không móp méo.</li>
+                                <li>Tất cả sản phẩm còn nguyên nhãn mác.</li>
+                                <li>Công ty không thể đổi hàng cho Quý khách nếu sản phẩm bị bẩn, bạc màu, hư hỏng và sử dụng sai quy cách hoặc không còn đúng bao bì của nhà sản xuất.</li>
+                                <li>Trong trường hợp mua hàng trực tuyến. Xin hãy mang theo email xác nhận đơn hàng tới cửa hàng.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3 class="mrb-5">Trường hợp sản phẩm bị lỗi: </h3>
+                            <p class="mrb-16">- Nếu sản phẩm của bạn bị lỗi, xin vui lòng nói chuyện hoặc inbox trực tiếp cho EGA-Cake để được giải quyết trong thời gian sớm nhất.</p>
+                            <p class="mrb-16">Hotline chăm sóc khách hàng (miễn phí): 09.9999.999 (8h-22h, tất cả các ngày trong tuần).</p>
+                        </li>
+                        <li>
+                            <h3 class="mrb-5">Xin trân trọng cảm ơn sự ủng hộ và hợp tác của Quý Khách hàng!</h3>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <!-- footer -->
+        <div class="top-footer">
+            <div class="grid wide">
+                <div class="row p-10">
+                    <div class="col l-5">
+                        <ul class="top-footer__social list-unstyled">
+                            <li>
+                                <img
+                                    class="mr-15"
+                                    src="assets/images/facebook.png"
+                                    alt=""
+                                />
+                            </li>
+                            <li>
+                                <img
+                                    class="mr-15"
+                                    src="assets/images/instagram.png"
+                                    alt=""
+                                />
+                            </li>
+                            <li>
+                                <img
+                                    class="mr-15"
+                                    src="assets/images/youtube.png"
+                                    alt=""
+                                />
+                            </li>
+                            <li>
+                                <img
+                                    class="mr-15"
+                                    src="assets/images/tiktok.png"
+                                    alt=""
+                                />
+                            </li>
+                            <li>
+                                <img
+                                    class="mr-15"
+                                    src="assets/images/zalo.png"
+                                    alt=""
+                                />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-7">
+                        <div class="row">
+                            <div class="col l-1">
+                                <i>
+                                    <img
+                                        src="assets/images/email-icon.svg"
+                                        alt=""
+                                    />
+                                </i>
+                            </div>
+                            <div class="col l-5 color-white">
+                                <span
+                                    >Bạn muốn nhận khuyến mãi đặc biệt? Đăng ký
+                                    ngay.</span
+                                >
+                            </div>
+                            <div class="col l-6">
+                                <form class="single-field-form" action="">
+                                    <input
+                                        type="email"
+                                        name="email"
+                                        placeholder="Thả email nhận ngay ưu đãi..."
+                                    />
+                                    <button>
+                                        <span
+                                            class="px-10 py-20"
+                                            style="display: inline-block"
+                                            >Đăng ký</span
+                                        >
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="row my-8 pt-40">
+                    <div class="col l-3">
+                        <img
+                            class="footer-logo"
+                            src="assets/images/logo-footer.png"
+                            alt=""
+                        />
+                        <ul class="list-menu">
+                            <li>
+                                <i class="fa-solid fa-location-dot icon"></i>
+                                <strong>Địa chỉ: </strong>
+                                <span
+                                    >150/8 Nguyễn Duy Cung- Phường 12- Quận Gò
+                                    vấp- TP.HCM</span
+                                >
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen icon"></i>
+                                <strong>Số điện thoại: </strong>
+                                <a class="link-h--pri" href="tel:19003333"
+                                    >19003333</a
+                                >
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope icon"></i>
+                                <strong>Email: </strong>
+                                <a
+                                    class="link-h--pri"
+                                    href="mailto:support@egany.com"
+                                    >support@egany.com</a
+                                >
+                            </li>
+                        </ul>
+                        <img
+                            class="logo-bct p-6"
+                            src="assets/images/logo_bct.png"
+                            alt=""
+                            width="104px"
+                        />
+                    </div>
+                    <div class="col l-3">
+                        <h4 class="title-menu">Hỗ trợ khách hàng</h4>
+                        <ul class="list-menu">
+                            <li>
+                                <a class="link-h--pri" href="#">Về chúng tôi</a>
+                            </li>
+                            <li>
+                                <a class="link-h--pri" href="#"
+                                    >Hệ thống cửa hàng</a
+                                >
+                            </li>
+                            <li>
+                                <a class="link-h--pri" href="#"
+                                    >Gọi điện đặt hàng</a
+                                >
+                            </li>
+                            <li>
+                                <a class="link-h--pri" href="#"
+                                    >Xuất hóa đơn điện tử</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-3">
+                        <h4 class="title-menu">Chính sách</h4>
+                        <ul class="list-menu">
+                            <li>
+                                <a class="link-h--pri" href="#"
+                                    >Chính sách bán hàng</a
+                                >
+                            </li>
+                            <li>
+                                <a class="link-h--pri" href="#"
+                                    >Chính sách đổi trả</a
+                                >
+                            </li>
+                            <li>
+                                <a class="link-h--pri" href="#"
+                                    >Chính sách giao hàng</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-3">
+                        <h4 class="title-menu">Tổng đài hỗ trợ</h4>
+                        <ul class="list-menu">
+                            <li>
+                                <a href="#"
+                                    >Gọi mua hàng:
+                                    <a
+                                        class="link--blue bold"
+                                        href="tel:19003333"
+                                        >19003333</a
+                                    >
+                                    (8h-20h)</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#"
+                                    >Gọi bảo hành:
+                                    <a
+                                        class="link--blue bold"
+                                        href="tel:19003333"
+                                        >19003333</a
+                                    >
+                                    (8h-20h)</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#"
+                                    >Gọi khiếu nại:
+                                    <a
+                                        class="link--blue bold"
+                                        href="tel:19003333"
+                                        >19003333</a
+                                    >
+                                    (8h-20h)</a
+                                >
+                            </li>
+                        </ul>
+                        <h4 class="title-menu">Phương thức thanh toán</h4>
+                        <img src="assets/images/footer_trustbadge.jpg" alt="" />
+                    </div>
+                </div>
+                <div class="row my-8">
+                    <div class="col l-12">
+                        © Bản quyền thuộc về
+                        <a class="link-h--pri" href="#">EGANY</a> | Cung cấp bởi
+                        <a class="link-h--pri" href="">Haravan</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
